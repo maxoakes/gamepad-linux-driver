@@ -1,0 +1,1 @@
+cmd_/home/max/Dropbox/school/linux/driver/gamepad_driver_mapped.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/max/Dropbox/school/linux/driver/gamepad_driver_mapped.ko /home/max/Dropbox/school/linux/driver/gamepad_driver_mapped.o /home/max/Dropbox/school/linux/driver/gamepad_driver_mapped.mod.o;  true
