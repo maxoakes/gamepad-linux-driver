@@ -1,0 +1,77 @@
+A   x00 00 00 10
+B   x00 00 00 20
+X   x00 00 00 40
+Y   x00 00 00 80
+
+up   x00 00 01 00
+dn   x00 00 02 00
+lt   x00 00 04 00
+rt   x00 00 08 00
+
+slct   x00 00 20 00
+strt   x00 00 10 00
+mode   x00 00 00 04
+
+L1   x00 00 00 01
+R1   x00 00 00 02
+
+L3   x00 00 40 00
+R3   x00 00 80 00
+
+bumperL
+    zero x00000000 00000000
+    full x00 00 00 00 ff000000
+
+bumperR
+    zero x00000000 00000000
+    full x00000000 00ff0000
+
+analogL up
+    zero x00000000 00000000 80000000
+    full x00000000 00000000 ff7f0000
+
+analogL down
+    zero x00000000 00000000 80000000
+    full x00000000 00000000 00800000
+
+analogL left
+    zero x00000000 00008000
+    full x00000000 00000080
+
+analogL right
+    zero x00000000 00008000
+    full x00000000 0000ff7f 
+
+analogR up
+    zero x00000000 00000000 00000000 80000000
+    full x00000000 00000000 00000000 ff7f0000
+          0 1 2 3  4 5 6 7  8 9 1011 12131415
+
+analogR down
+    zero x00000000 00000000 00000000 80000000
+    full x00000000 00000000 00000000 00800000
+
+analogR left
+    zero x00000000 00000000 00008000
+    full x00000000 00000000 00000080
+
+analogR right
+    zero x00000000 00000000 00008000
+    full x00000000 00000000 0000ff7f
+          0 1 2 3  4 5 6 7  8 9 1011
+    
+    0014 0000 0000 8000 9414 8000 8000 0000 0000 0000
+
+A       LEFT CLICK
+B       RIGHT CLICK
+X       MIDDLE MOUSE
+Y       SIDE MOUSE
+L1      LEFT SHIFT
+L2      VOLUME DOWN
+L3      PAGE DOWN
+R1      ENTER
+R2      VOLUME UP
+R3      PAGE UP
+START   ESCAPE
+SELECT  CNTRL
+MODE    ALT
