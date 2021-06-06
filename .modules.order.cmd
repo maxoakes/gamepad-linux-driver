@@ -1,1 +1,0 @@
-cmd_/home/max/Dropbox/school/linux/driver/modules.order := {   echo /home/max/Dropbox/school/linux/driver/gamepad_driver_mapped.ko; :; } | awk '!x[$$0]++' - > /home/max/Dropbox/school/linux/driver/modules.order

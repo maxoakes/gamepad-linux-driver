@@ -1,1 +1,0 @@
-cmd_/home/max/Dropbox/school/linux/driver/gamepad_driver_mapped.mod := { echo  /home/max/Dropbox/school/linux/driver/gamepad_driver_mapped.o;  echo; } > /home/max/Dropbox/school/linux/driver/gamepad_driver_mapped.mod
